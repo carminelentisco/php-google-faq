@@ -1,0 +1,117 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+
+/* Utility */
+.active {
+    border-bottom: 4px solid dodgerblue;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header page */
+
+.header__page {
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid grey;
+    position: fixed;
+    background-color: #fff;
+}
+
+/* header Logo */
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.header__logo img {
+    margin-top: 10px;
+}
+
+.header__logo span {
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: grey;
+}
+
+/* Header Nav */
+
+.header__nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.header__nav-list li {
+    padding: 0 40px 10px 0;
+}
+
+.header__nav-list li a {
+    color: grey;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.header__nav-list .active  a {
+    color: dodgerblue;
+}
+
+/* Main  */
+
+.articles__container {
+    padding-top: 200px;
+}
+
+.article {
+    padding-bottom: 50px;
+}
+
+.article__title {
+    padding-bottom: 20px;
+}
+
+.article__title h2 {
+    color: rgb(82, 82, 82);
+}
+
+.article__text p {
+    font-size: 13px;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+
+.article__text p a {
+    color: dodgerblue;
+}
+
+/* Footer */
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.list li {
+    padding-right: 10px;
+}
+
+.list li a {
+    padding-bottom: 10px;
+    font-size: 10px;
+    color: grey;
+    text-decoration: none;
+}
