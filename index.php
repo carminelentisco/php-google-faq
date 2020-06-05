@@ -79,7 +79,6 @@
 
         <section class="container articles__container">
             <?php foreach ( $articles as $article ) { ?>
-            
             <div class="article">
                 <header class="article__title">
                     <h2><?php echo $article['title']; ?></h2>
@@ -89,8 +88,7 @@
                         <p><?php echo $paragraph ?></p>
                     <?php } ?>        
                 </main>
-            </div>
-                
+            </div>               
             <?php } ?>
         </section>
     </main>
